@@ -1,2 +1,2 @@
 # weather
-https://jester-fool.github.io/weather/
+https://school-33.github.io/Weather/
