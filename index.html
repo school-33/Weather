@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Погода</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Прогноз погоды в Старом Осколе</h1>
+                <article id="hourly-forecast">
+                    <div class="card">
+                        <div class="card-body" id="card-body">
+                            <h5 id="weatherTranslations">Погода:</h5>
+                            <h5 id="temp">Температура:</h5>
+                            <h5 id="humidity">Влажность:</h5>
+                            <div class="forecast-buttons"></div>
+                        </div>
+                </article>
+
+                <article id="weekly-forecast">
+                        <div class="card-body">
+                            <h2 class="card-title">Прогноз на неделю</h2>
+                            <ul class="list-group" id="weekly-forecast-list"></ul>
+                        </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
